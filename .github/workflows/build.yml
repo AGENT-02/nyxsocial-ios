@@ -51,7 +51,7 @@ jobs:
             -exportPath build/ipa || true
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: iactions/upload-artifact@v4
         with:
           name: ios-app
           path: build/ipa
