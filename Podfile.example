@@ -1,0 +1,6 @@
+platform :ios, '17.0'
+use_frameworks!
+target 'NyxSocial' do
+  # Optional for real calls:
+  # pod 'GoogleWebRTC'
+end
